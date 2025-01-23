@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: rgb(2, 41, 124);
+    height: 40px;
+    
+}
+
+p{
+    color: aliceblue;
+}
+
+i{
+    color: rgb(210, 183, 30);
+}
+
+
+.ul1 li p{
+    float: left;
+}
+
+.ul2 li{
+    
+    float: right;
+}
+.ul1, .ul2{
+    list-style: none;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+
+.ul2 li{
+    padding: 10px 20px;
+}
+
+.ul1 li p{
+    padding: 10px 20px;
+}
+
+.driving ul li select:hover{
+    color: #F3BD00;
+}
+
+.driving .rin1{
+    margin-right: -70px;
+}
+
+.driving .rin1 a{
+    color: azure;
+}
+
+.ul2 .face{
+    border-right: 0.5px solid yellow;
+}
+
+.driving h2{
+    float: left;
+    font-size: 30px;
+}
+
+.driving ul li{
+    float: right;
+}
+
+.driving ul li select{
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+ul li{
+    list-style: none;
+}
+
+.driving{
+    padding-top: 20px;
+}
+
+.driving ul li{
+    padding: 0px 20px;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+.driving h2{
+    border-right: 1px solid;
+    padding-right: 20px;
+    height: 46px;
+    margin-top: -25px;
+    padding-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.driving ul li a:hover{
+    color: #F3BD00;;
+}
+
+.driving ul li a{
+    color: rgb(6, 12, 12);
+}
+
+.driving ul li .rin1{
+    background-color: #F3BD00;;
+    padding: 20px 40px;
+    margin-top: -20px;
+    color: azure;
+}
+
+.driving ul li .rin2:hover{
+    color: azure;
+}
+
+.sai1{
+    background-image: url(/experiment/assets/img/opacha.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin-top: -8px;
+}
+
+.sai2 h1{
+    text-align: center;
+    padding-top: 400px;
+    font-size: 70px;
+    color: azure;
+}
+
+.sai2 .rin3{
+    margin-left: 700px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: #F3BD00;;
+    color: azure;
+    font-size: 20px;
+}
+
+ button{
+    padding: 20px 50px;
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+ button a{
+    color: black;
+}
+
+.sai2 .rin3:hover{
+    background-color: #ffc107;;
+}
+
+.sai2 .rin3 a{
+    color: azure;
+}
+
+#sai3 p{
+    color: black;
+}
+
+#sai3 .fa-solid{
+    float: left;
+}
+
+#sai3{
+    background-color: azure;
+    max-width: 33.3%;
+    float: left;
+    padding: 20px 20px;
+    border: 0.1px solid;
+    border-color: rgb(237, 246, 255);
+}
+
+.container2{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#sai3 .fa-solid{
+    background-color: #ffc107;
+    padding: 15px 15px;
+    margin-right: 10px;
+    color: azure;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#sai3{
+    margin-top: -50px;
+}
+#sai3 h3{
+    padding-bottom: 10px;
+}
+
+.container2 .sai4{
+    background-image: url(../img/about1.jpg);
+    width: 700px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 300px;
+    float: left;
+    
+}
+
+.container2 .sai4 img{
+    border: 30px solid;
+    border-color: white;
+    margin-left: -30px;
+    margin-top: -100px;
+}
+
+.sai5{
+    float: right;
+    max-width: 600px;
+    margin-top: 300px;
+}
+
+.sai5 p{
+    color: #444;
+    padding-top: 20px;
+    font-size: 20pX;
+}
+
+.sai5 h1{
+    font-size: 40px;
+    margin-top: -20px;
+    color: #0C2B4B;
+    font-family: sans-serif;
+}
+
+.sai6{
+    float: left;
+}
+
+.sai7{
+    padding-left: 300px;
+}
+
+.sai6 .fa-solid, .sai7 .fa-solid{
+    padding-right: 10px;
+    color:  #ffc107;
+}
+
+.sai5 button{
+    background-color: #ffc107;
+    margin-top: 50px;
+    margin-left: -5px;
+    
+}
+
+.sai5 button a{
+    color: white;
+}
+
+.sai5 button:hover{
+    background-color: #ffc720;
+    cursor: pointer;
+}
+
+.sai5 .rin5 a{
+    font-size: 15px;
+    color: #ffc107;
+}
+
+.sai5 .rin5{
+    margin-left: 110px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #ffc107;
+    
+}
+
+.sai5 .rin5 .fa-sharp-duotone{
+    color: white;
+    background-color: #ffc107;
+    padding: 10px 10px;
+    margin-right: 15px;
+}
+
+.sai5 .rin5{
+    padding: 10px 20px;
+}
+
+.sai5 button a{
+    font-size: 15px;
+}
+
+.sai5 .rin5 a:hover{
+    color: white;
+}
+
+.sai5 .rin5, .sai5 button{
+    margin-top: 60px;
+}
+
+.sec2{
+    background-image: url(/experiment/assets/img/opacha.jpg);
+    margin-top: 1000px;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 0.5;
+    height: 1000px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sai8 h1{
+    font-size: 40px;
+    color: #0C2B4B;
+    visibility: visible;
+}
+.sai8 span{
+    color: #ffc107;
+    margin-left: 550px;
+}
+
+#sai10{
+    background-image: url(/assets/img/car1.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    width: 407px;
+    
+}
+
+.sai11{
+    margin-top: 1000px;
+    background-image: url(/experiment/assets/img/opacha.jpg);
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sai8 h1{
+    text-align: center;
+}
+
+.sai8{
+    padding-top: 100px;
+}
+
+.sai12{
+    margin-left: 20px;
+    float: left;
+}
+
+.sai9{
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    
+}
+
+.sai9 h3{
+    padding: 15px;
+    color: #0C2B4B;
+}
+
+.sai9 .p3{
+    padding-top: 15px;
+}
+
+.sai9 .p1{
+    background-color: rgb(255, 184, 53);
+    width: 70px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size: 19px;
+}
+
+.sai9 .p2, .p3{
+    color: #444;
+}
+
+#sai13{
+    background-image: url(/assets/img/car2.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    width: 407px;
+    
+}
+
+#sai14{
+    background-image: url(/assets/img/car3.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    width: 407px;
+    
+}
+
+.sai12{
+    margin-top: 40px;
+}
+
+.sai15{
+    background-color: rgb(255, 187, 0);
+    display: inline-block;
+    height: 452px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 250px;
+    padding: 50px;
+}
+
+.ipt{
+    padding: 15px 80px;
+    margin-top: 15px;
+    border: none;
+}
+
+.sai15 h1{
+    font-size: 34px;
+    color: #0C2B4B;
+    padding-bottom: 10px;
+}
+
+.sai15 .int{
+    padding: 40px 245px;
+    margin-top: 15px;
+    border: none;
+    
+}
+
+.sai15 .btn{
+    padding: 15px 305px;
+    font-size: 16px;
+    color: white;
+    background-color: #0C2B4B;
+    border: none;
+}
+
+.sai15 .btn:hover{
+    background-color: #0a243d;
+    cursor: pointer;
+}
+
+.sai16{
+    float: left;
+    max-width: 600px;
+}
+.sai16 h2{
+    font-size: 15px;
+    color: #F3BD00;
+}
+#sai17{
+    margin-top: 200px;
+}
+.sai16 h1{
+    font-size: 35px;
+    color: #0a243d;
+}
+
+.sai16 p{
+    margin-top: 5px;
+    color: #444;
+}
+.rasm11{
+    background-image: url(../img/about1.jpg);
+    width: 700px;
+    background-repeat: no-repeat;
+    float: right;
+    background-position: center;
+    height: 500px;
+}
+
+.rasm12{
+    float: right;
+    margin-top: -60px;
+    border: 30px solid;
+    border-color: white;
+    
+}
+
+.sai18{
+    float: left;
+    max-width: 290px;
+}
+.sai18 .fa-solid {
+    color: #F3BD00;
+    float: left;
+}
+
+.sai18 p{
+    color: #444;
+    padding-top: 25px;
+}
+.sai18 h3{
+    font-size: 20px;
+    color: #0C2B4B;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.sai18{
+    margin-top: 60px;
+}
+
+.sai19{
+    margin-top: 900px;
+}
+.sai19 h1, h3{
+    text-align: center;
+}
+
+.sai19 h3{
+    color: #F3BD00;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+
+.sai19 h1{
+    font-size: 40px;
+    color: #0a243d;
+    
+}
+
+.sai20 h2, span{
+    background-color: #F3F6F8;
+    width: 300px;
+    height: 100px;
+}
+
